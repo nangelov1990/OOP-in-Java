@@ -1,9 +1,10 @@
 package data.vertex;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Vertex2D extends Vertex {
-	protected Vertex2D(double x, double y) {
+	public Vertex2D(double x, double y) {
 		super(new ArrayList<Double>(Arrays.asList( x, y )));
 	}
 	

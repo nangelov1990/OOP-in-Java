@@ -1,4 +1,5 @@
 package data.vertex;
+
 import java.util.List;
 
 public abstract class Vertex {
@@ -20,14 +21,14 @@ public abstract class Vertex {
 	public String toString() {
 		StringBuilder vertex = new StringBuilder();
 		
-		vertex.append("[");
+		vertex.append("(");
 		coordinates
 			.forEach(coordinate -> vertex
 						.append(String.format(
 								"%.2f, ", 
 								coordinate)));
 		vertex.delete(vertex.length() - 2, vertex.length());
-		vertex.append("]");
+		vertex.append(")");
 		
 		return vertex.toString();
 	}
