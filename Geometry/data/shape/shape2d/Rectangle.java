@@ -11,8 +11,8 @@ public class Rectangle extends PlaneShape {
 
 	public Rectangle(Vertex2D firstVertex, double width, double height) {
 		super(new ArrayList<Vertex2D>(Arrays.asList(firstVertex)));
-		setWidth(width);
-		setHeight(height);
+		this.setWidth(width);
+		this.setHeight(height);
 	}
 
 	public double getWidth() {
@@ -41,14 +41,14 @@ public class Rectangle extends PlaneShape {
 
 	@Override
 	public double getArea() {
-		double area = getWidth() * getHeight();
+		double area = this.getWidth() * this.getHeight();
 		
 		return area;
 	}
 
 	@Override
 	public double getPerimeter() {
-		double perimeter = getWidth() * 2 + getHeight() * 2; 
+		double perimeter = this.getWidth() * 2 + this.getHeight() * 2; 
 		
 		return perimeter;
 	}

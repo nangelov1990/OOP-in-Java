@@ -8,7 +8,7 @@ import data.vertex.Vertex2D;
 public class Triangle extends PlaneShape {
 	public Triangle(Vertex2D firstVertex, Vertex2D secondVertex, Vertex2D thirdVertex) {
 		super(new ArrayList<Vertex2D>(Arrays.asList(firstVertex, secondVertex, thirdVertex)));
-		isTriangle(getSideA(), getSideB(), getSideC());
+		this.isTriangle(getSideA(), getSideB(), getSideC());
 	}
 
 	private void isTriangle(double sideA, double sideB, double sideC) {
@@ -41,9 +41,9 @@ public class Triangle extends PlaneShape {
 
 	@Override
 	public double getArea() {
-		double sideA = getSideA();
-		double sideB = getSideB();
-		double sideC = getSideC();
+		double sideA = this.getSideA();
+		double sideB = this.getSideB();
+		double sideC = this.getSideC();
 		double halfPerimeter = (sideA + sideB + sideC) / 2;
 		double area = Math.sqrt(halfPerimeter * (halfPerimeter - sideA) * (halfPerimeter - sideB) * (halfPerimeter - sideC));
 		
@@ -52,7 +52,7 @@ public class Triangle extends PlaneShape {
 
 	@Override
 	public double getPerimeter() {
-		double perimeter = getSideA() + getSideB() + getSideC();
+		double perimeter = this.getSideA() + this.getSideB() + this.getSideC();
 		
 		return perimeter;
 	}
