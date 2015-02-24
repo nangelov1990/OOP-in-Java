@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="Geometry"/>
 	<classpathentry kind="src" path="1lv-Shop"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/angelovn/Documents/SoftUni/IDEs/Libraries/Java/joda-time-2.7.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

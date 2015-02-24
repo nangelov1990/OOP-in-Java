@@ -2,9 +2,7 @@ package data.shape.shape3d;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
-import data.vertex.Vertex2D;
 import data.vertex.Vertex3D;
 
 public class SquarePyramid extends SpaceShape {

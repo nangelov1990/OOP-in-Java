@@ -2,8 +2,6 @@ package data.shape.shape2d;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
-
 import data.vertex.Vertex2D;
 
 public class Circle extends PlaneShape {

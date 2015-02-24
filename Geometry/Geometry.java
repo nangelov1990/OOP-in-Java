@@ -1,8 +1,6 @@
 import interfaces.VolumeMeasurable;
 
 import java.util.*;
-import java.util.stream.Stream;
-
 import data.shape.Shape;
 import data.shape.shape2d.*;
 import data.shape.shape3d.*;
